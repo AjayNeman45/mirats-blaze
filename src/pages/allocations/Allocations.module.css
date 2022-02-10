@@ -1,0 +1,118 @@
+/*  allocations info */
+.allocations_info {
+	/* border: 1px solid red; */
+	display: flex;
+	padding: 1.5rem 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+.allocations_info_left {
+	display: flex;
+}
+.allocations_info_section {
+	border-left: 1px solid rgb(185, 185, 185);
+	/* width: 7rem; */
+	display: flex;
+	flex-direction: column;
+	padding: 0 1rem;
+	/* border: 1px solid red; */
+}
+.allocations_info_section:first-child {
+	border-left: none;
+}
+.allocations_info_section label {
+	text-transform: uppercase;
+	color: rgb(65, 65, 65);
+	font-size: 13px;
+}
+.allocations_info_section span {
+	font-size: 14px;
+}
+
+/* marketplace suppliers  */
+
+.marketplace_suppliers,
+.external_supply_sources {
+	border: 1px solid rgb(207, 207, 207);
+	margin: 2rem;
+}
+.marketplace_suppliers .title,
+.external_supply_sources .title {
+	background-color: rgb(238, 238, 253);
+	font-size: 18px;
+	padding: 1rem 1rem;
+	margin: 0;
+}
+.btns_filters {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* padding: 1rem 0.7rem; */
+	border-bottom: 1px solid rgb(192, 192, 192);
+}
+.btns_filters .left button,
+.add_supplier_btn {
+	padding: 10px 14px;
+	border-radius: 2px;
+	background-color: rgb(30, 112, 221);
+	color: white;
+	border: none;
+	margin: 1rem;
+	margin-right: 0;
+	cursor: pointer;
+}
+.btns_filters .left button:hover,
+.add_supplier_btn:hover {
+	background-color: rgb(9, 86, 185);
+}
+.btns_filters .right select,
+.btns_filters .right input {
+	padding: 10px 14px;
+	margin: 0 0.3rem;
+	border: 1px solid rgb(204, 204, 204);
+}
+.instruction {
+	font-size: 15px;
+	/* border: 1px solid red; */
+	padding: 1rem;
+	margin: 0;
+	color: rgb(80, 79, 79);
+	font-family: 500;
+}
+
+/* table  */
+
+.suppliers_table {
+	overflow-x: auto;
+}
+.suppliers_table td {
+	/* border: 1px solid red; */
+	font-size: 14px;
+	padding: 1rem;
+}
+.suppliers_table td:nth-child(2) {
+	display: flex;
+	/* border: 1px solid red; */
+	align-items: center;
+}
+
+/* external supply sorces  */
+/* 
+.external_supply_sources {
+	border: 1px solid gray;
+	margin: 2rem;
+}
+.external_supply_sources .title {
+	background-color: rgb(238, 238, 253);
+	font-size: 18px;
+	padding: 1rem 1rem;
+	margin: 0;
+}
+.add_supplier_btn {
+	padding: 10px 14px;
+	border-radius: 2px;
+	background-color: rgb(30, 112, 221);
+	color: white;
+	border: none;
+	margin: 1rem;
+} */

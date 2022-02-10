@@ -1,0 +1,181 @@
+.security_page {
+	/* border: 1px solid red; */
+	padding: 2rem;
+}
+.page_title {
+	font-size: 30px;
+	margin: 2rem;
+	border-bottom: 1px solid rgb(201, 201, 201);
+	padding-bottom: 2rem;
+}
+.security_head {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.security_head div > p {
+	color: rgb(29, 85, 238);
+	margin-top: 0.2rem;
+	font-size: 20px;
+}
+
+.main {
+	flex-grow: 1;
+	display: flex;
+	height: 254;
+	/* border: 1px solid black; */
+	margin-top: 2rem;
+}
+
+.validation_setting_header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* border: 1px solid red; */
+}
+.security_settings_instruction {
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+.save_btn {
+	padding: 10px 20px;
+	background-color: rgb(9, 65, 218);
+	border-radius: 2px;
+	color: white;
+	border: none;
+	margin-left: 2rem;
+}
+.validation_settings_content {
+	/* border: 1px solid red; */
+	background-color: rgb(240, 240, 252);
+	margin-top: 2rem;
+	padding: 1rem 0 1rem 1rem;
+}
+.validation_settings_legend {
+	font-size: 17px;
+	color: rgb(37, 36, 36);
+	border-bottom: 1px solid rgb(39, 39, 39);
+	width: fit-content;
+}
+.validation_settings_list {
+	list-style: none;
+}
+.validation_settings_item {
+	margin: 0.5rem 0;
+}
+.validation_settings_label {
+	font-size: 15px;
+}
+
+/* re entry configuration  */
+.re_entry_config {
+	background-color: rgb(240, 240, 252);
+	padding: 0.3rem 1rem;
+}
+.re_entry_config .tab_title {
+	font-size: 19px;
+	letter-spacing: 0.2px;
+}
+.screener_side_section,
+.client_side_section {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1.5rem;
+}
+
+.survey_grp_types label {
+	/* border: 1px solid red; */
+	width: 7rem;
+}
+.screener_side > div,
+.client_side > div {
+	/* width: 60rem; */
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	/* border: 1px solid red; */
+}
+.screener_side .left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* border: 1px solid red; */
+}
+
+.screener_side .left .left_name {
+	width: 10rem;
+	text-align: end;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-right: 2.5rem;
+}
+
+.single_survey_select_field {
+	width: 4.5rem;
+	height: 2rem;
+}
+
+.left > div,
+.right {
+	display: flex;
+	flex-direction: column;
+}
+
+.table_head {
+	text-align: center;
+	margin-left: 5rem;
+	color: rgb(17, 84, 184);
+	font-size: 18px;
+}
+
+/* ip address exclusion  */
+
+.ip_address_exclusion {
+	background-color: rgb(240, 240, 252);
+	padding: 1.5rem 1rem;
+}
+
+.ip_address_exclusion h2 {
+	margin-bottom: 1.5rem;
+	font-size: 20px;
+	color: rgb(43, 41, 41);
+}
+
+.ip_address_exclusion h3 {
+	margin-bottom: 1rem;
+	font-size: 15px;
+	font-weight: 400;
+	color: rgb(73, 73, 73);
+}
+
+.ip_data p {
+	margin: 0.5rem 0;
+	color: rgb(73, 73, 73);
+	font-size: 15px;
+}
+
+.file_input label {
+	margin-right: 0.5rem;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.file_input input,
+.file_input select {
+	margin-left: 0.5rem;
+	padding: 5px 0;
+}
+
+.ip_data_btns {
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.ip_data_btns button {
+	background-color: #ccc;
+	border: none;
+	margin: 0 0.3rem;
+	padding: 0.8rem 1.5rem;
+	border-radius: 5px;
+	cursor: pointer;
+}

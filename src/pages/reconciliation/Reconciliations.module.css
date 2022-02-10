@@ -1,0 +1,151 @@
+.security_page {
+	/* border: 1px solid red; */
+	padding: 2rem;
+}
+.page_title {
+	font-size: 30px;
+	margin: 2rem;
+	border-bottom: 1px solid rgb(201, 201, 201);
+	padding-bottom: 2rem;
+}
+.security_head {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.security_head div {
+	display: flex;
+	flex-direction: column;
+}
+.security_head div > p {
+	margin: 0rem;
+	/* font-size: 18px; */
+}
+.security_head div label {
+	margin-bottom: 1rem;
+}
+.project_info_link {
+	text-decoration: none;
+	color: blue;
+}
+
+.main {
+	flex-grow: 1;
+	display: flex;
+	height: 254;
+	/* border: 1px solid black; */
+	margin: 3.5rem 2rem;
+}
+
+/* data analysis  */
+.data_analysis_section span {
+	font-size: 14px;
+	margin: 1rem;
+}
+.data_analysis_section div {
+	margin-top: 1rem;
+}
+.data_analysis_section input,
+select {
+	padding: 5px 0;
+}
+.export_to_excel_btn {
+	text-align: center;
+}
+.export_to_excel_btn > button {
+	padding: 8px 15px;
+	border: none;
+	background-color: rgb(22, 102, 221);
+	color: white;
+	font-size: 14px;
+	margin-top: 2rem;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.export_to_excel_btn > button:disabled {
+	background-color: rgb(155, 193, 252);
+	cursor: not-allowed;
+}
+.filter_by_status {
+	display: flex;
+}
+.filter_by_status div {
+	margin-left: 1rem;
+}
+.data_analysis_table {
+	overflow-x: auto;
+}
+.data_analysis_table table tr {
+	text-align: left;
+	border: 1px solid rgb(202, 200, 200);
+}
+.data_analysis_table table thead {
+	background-color: rgb(235, 229, 229);
+}
+.data_analysis_table table th,
+.data_analysis_table table td {
+	padding: 0.5rem;
+}
+
+/* reconciliation  */
+.reconciliations_section {
+	/* border: 1px solid red; */
+	padding-left: 2rem;
+}
+.setup_reconciliation {
+	font-weight: bold;
+}
+.reconciliations_section > .bottom {
+	border: 1px solid black;
+	padding: 2rem;
+	margin-top: 2rem;
+}
+.reconciliations_section > .bottom > div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 30rem;
+	margin: 0.5rem auto;
+}
+.reconciliations_section > .bottom div > select {
+	width: 10rem;
+}
+
+.reconciliations_section > .bottom .file_input {
+	margin-right: -5.8rem;
+	width: fit-content;
+}
+
+.reconciliations_section .continue_btn > button,
+.generate_report_btn > button {
+	padding: 8px 15px;
+	border: none;
+	background-color: rgb(22, 102, 221);
+	color: white;
+	font-size: 14px;
+	margin: 1rem auto;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.reconciliations_section .note {
+	/* border: 1px solid red; */
+	font-size: 14px;
+}
+
+/* term details section  */
+.term_details_section {
+	/* border: 1px solid red; */
+	padding: 0 2rem;
+}
+.term_details_section > .section {
+	display: flex;
+	justify-content: space-between;
+	width: 20rem;
+	margin-bottom: 1rem;
+}
+.term_details_section > div > select {
+	width: 10rem;
+}
+.generate_report_btn {
+	text-align: center;
+}

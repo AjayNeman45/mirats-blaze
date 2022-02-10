@@ -1,0 +1,107 @@
+.page_title {
+	font-size: 30px;
+	margin: 2rem;
+	border-bottom: 1px solid rgb(201, 201, 201);
+	padding-bottom: 2rem;
+}
+.survey_client_info {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.survey_client_info div p {
+	color: rgb(29, 85, 238);
+	margin-top: 0.2rem;
+	font-size: 20px;
+}
+.required_err {
+	/* border: 1px solid red; */
+	margin: 0 7.5rem;
+	padding: 2rem 0;
+	border-bottom: 4px solid rgb(235, 235, 235);
+	font-size: 14px;
+}
+.instructions {
+	/* border: 1px solid red; */
+	width: fit-content;
+	margin: 2rem auto;
+}
+.instructions p {
+	color: #fa5e00;
+	font-weight: bold;
+	font-size: 18px;
+}
+.instructions ul {
+	list-style: none;
+}
+.instructions li {
+	/* border: 1px solid red; */
+	margin-left: -2.5rem;
+	margin-bottom: 0.3rem;
+
+	font-size: 13.5px;
+}
+.instructions a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.select_file_section {
+	/* width: fit-content; */
+	width: 25rem;
+	padding: 0.5rem;
+	margin: 0 auto;
+	background-color: rgb(226, 226, 255);
+	text-align: center;
+}
+.select_file_section label {
+	font-size: 15px;
+}
+.select_file_section input {
+	margin-top: 0.5rem;
+}
+.selected_file {
+	width: 20rem;
+	height: 20px;
+	padding: 7px 8rem;
+	border: 1px solid gray;
+}
+
+/* survey documents  */
+.survey_documents {
+	/* border: 1px solid red; */
+	border-top: 4px solid rgb(235, 235, 235);
+	padding: 1rem;
+	margin: 2rem;
+}
+.survey_documents .legend,
+.recontacts .legend {
+	font-size: 15px;
+	color: blue;
+	font-weight: bold;
+}
+.recontacts {
+	border-top: 4px solid rgb(235, 235, 235);
+	padding: 1rem;
+	margin: 2rem;
+	font-size: 14.5px;
+	color: rgb(48, 47, 47);
+}
+.recontacts .content {
+	/* border: 1px solid red; */
+	margin-left: 10rem;
+}
+.recontacts .select_file_section {
+	width: 40vw;
+}
+.select_file_section > button {
+	padding: 8px 15px;
+}
+.download_details_btn {
+	padding: 8px 15px;
+	background-color: var(--btn-back);
+	border: none;
+	color: white;
+	border-radius: 2px;
+	cursor: pointer;
+}
